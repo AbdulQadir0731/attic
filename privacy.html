@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Privacy Policy — Attic</title>
+  <meta name="description" content="Attic's privacy policy. No developer server, no analytics, no tracking.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23152033'/%3E%3Cpath d='M6 16 16 7l10 9' fill='none' stroke='%23F2A33A' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='12' y='15' width='8' height='9' rx='1.5' fill='%23F2A33A'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Attic home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 32 32"><path d="M4 17 16 6l12 11" fill="none" stroke="#F2A33A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><rect x="11.5" y="15" width="9" height="11" rx="1.6" fill="#F2A33A"/></svg>
+      </span>
+      Attic
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap prose">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective September 15, 2026</p>
+
+  <div class="callout">
+    <p><strong>The short version.</strong> Attic has no server. We don't run analytics, ads or tracking, and we, the developer, receive no personal data. Your photos and videos go only to the storage you connect, and everything else stays on your iPhone.</p>
+  </div>
+
+  <p>This policy explains how the Attic app for iPhone ("Attic", "we", "us") handles information. It applies to the app and to this website.</p>
+  <p>Attic is developed and published by Abdul Qadir.</p>
+
+  <h2>1. What we collect</h2>
+  <p><strong>Nothing.</strong> Attic has no developer server and no user accounts, and includes no analytics, advertising, crash-reporting or tracking SDKs. We do not receive, store or sell any personal data. Attic does not track you across apps or websites.</p>
+
+  <h2>2. Your photos and videos</h2>
+  <p>To archive an item, Attic reads it from your photo library with the permission you grant in iOS. It then copies the original files directly from your iPhone to a destination <em>you</em> choose:</p>
+  <ul>
+    <li><strong>Google Drive</strong>: using the <code>drive.file</code> scope, Attic can only access the files and folders it creates itself. It cannot see or read the rest of your Drive.</li>
+    <li><strong>Dropbox</strong>: using App folder access, Attic can only access its own folder (<code>/Apps/Attic</code>). It cannot see the rest of your Dropbox.</li>
+    <li><strong>A folder you pick</strong> in the Files app, such as a USB-C drive, a network share or iCloud Drive.</li>
+  </ul>
+  <p>Files travel from your iPhone to that destination over encrypted connections (HTTPS for cloud services). They never pass through a server run by us, and we can't access them. Once stored, your files are governed by the privacy policy of the storage provider you chose.</p>
+
+  <h2>3. Information that stays on your iPhone</h2>
+  <ul>
+    <li><strong>The Attic catalog</strong>: a list of archived items with small thumbnails, dates, sizes, checksums and where each copy is stored. It lives in Attic's storage on your device.</li>
+    <li><strong>Search index</strong>: Attic uses Apple's Vision framework to label image content (for example "beach" or "dog") and to recognise text in images. This runs entirely on your iPhone. On devices that support it, Attic may use Apple's on-device language model to understand search phrases; that also stays on the device.</li>
+    <li><strong>Sign-in tokens</strong>: when you connect Google Drive or Dropbox, the access credentials they issue are stored in your iPhone's Keychain. Attic never sees or stores your password.</li>
+    <li><strong>Storage history</strong>: Attic records your iPhone's free space over time to forecast when it will fill up. These samples are shared only with Attic's own widget, on your device.</li>
+    <li><strong>Trip reminders</strong>, if you set one, are local notifications scheduled on your iPhone.</li>
+  </ul>
+
+  <h2>4. Place names</h2>
+  <p>To let you search by place, Attic turns the location stored in a photo into a place name (for example "Lahore, Pakistan") using Apple's reverse-geocoding service. Only the coordinates are sent to Apple, never the photo itself. Apple handles these requests under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. Results are cached on your device.</p>
+
+  <h2>5. Purchases</h2>
+  <p>Subscriptions, the lifetime unlock and the Trip Pass are processed by Apple through the App Store. We never receive your payment details. Attic checks your purchase status on the device using Apple's StoreKit.</p>
+
+  <h2>6. Google user data</h2>
+  <p>If you connect Google Drive, Attic requests access to the <code>drive.file</code> scope (files Attic creates) and your Google account email address, which is shown in the app so you know which account is connected. Attic uses this access only to upload, verify, list, download and delete the archive files and manifests it created, at your request.</p>
+  <p>Attic's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Specifically:</p>
+  <ul>
+    <li>Google user data is used only to provide the archive features you see in Attic.</li>
+    <li>It is not transferred to anyone, including us, except as needed to provide those features, to comply with law, or with your explicit consent.</li>
+    <li>It is not used for advertising, and it is not sold.</li>
+    <li>No human reads it. The data never reaches the developer at all.</li>
+    <li>It is not used to develop, improve or train generalized AI or machine-learning models.</li>
+  </ul>
+
+  <h2>7. Retention and deletion</h2>
+  <ul>
+    <li><strong>Disconnect a destination</strong> in Attic › Settings › Storage to remove its tokens from your Keychain.</li>
+    <li><strong>Revoke access</strong> at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> for Google, or <a href="https://www.dropbox.com/account/connected_apps">dropbox.com/account/connected_apps</a> for Dropbox.</li>
+    <li><strong>Delete the app</strong> to remove the catalog, thumbnails, search index and storage history from your iPhone. Keychain items may persist until you disconnect or reset your device.</li>
+    <li><strong>Your archived files</strong> stay in your storage until you delete them, either in Attic (Delete from archive) or directly in Google Drive, Dropbox or the folder you chose.</li>
+  </ul>
+  <p>Because we hold no personal data, there is nothing for us to export or erase on request. We're still happy to answer questions about your rights under laws such as the GDPR or CCPA.</p>
+
+  <h2>8. Crash and usage data from Apple</h2>
+  <p>If you choose to share analytics with app developers in iOS Settings, Apple may provide us with anonymous crash reports and aggregate usage statistics. We use these only to fix problems. You can turn this off in Settings › Privacy &amp; Security › Analytics &amp; Improvements.</p>
+
+  <h2>9. Children</h2>
+  <p>Attic is not directed at children under 13 and does not knowingly collect information from anyone. Since Attic collects no personal data, none is collected from children.</p>
+
+  <h2>10. Security</h2>
+  <p>Connections to storage providers use HTTPS. Credentials are kept in the iOS Keychain. Temporary copies made while uploading are deleted once each item finishes. No system is perfectly secure, but keeping your data off our servers means there is nothing of yours for us to lose.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If this policy changes, we'll update the effective date above and, for significant changes, mention it in the app's release notes. If Attic ever begins collecting data, we'll update this policy and the App Store privacy details before that version is released.</p>
+
+  <h2>12. Contact</h2>
+  <p>Questions about privacy? Contact us through <a href="https://github.com/AbdulQadir0731/attic/issues">Attic support on GitHub</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Attic</span>
+    <nav aria-label="Footer">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
